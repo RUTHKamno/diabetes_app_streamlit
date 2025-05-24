@@ -18,7 +18,7 @@ def filedownload(df):
     href = f'<a href="data:file/csv;base64,{b64}" download="diabete_predictions.csv">Download CSV File</a>'
     return href
 
-st.sidebar.image('photo_2025-05-23_18-50-58.jpg')
+st.sidebar.image('1.jpg')
 
 def main():
     st.markdown("<h1 style='text-align: center; color:brown;'>Diabete Prediction</h1>", unsafe_allow_html=True)
@@ -45,7 +45,7 @@ def main():
     if selected == "Home": # Use 'selected' instead of 'choice'
         left, middle, right = st.columns((2,3,2))
         with middle:
-            st.image("photo_2025-05-23_18-49-29.jpg", width=400)
+            st.image("1.jpg", width=400)
         st.write('This is an app that will analyse diabetes Datas with some python tools that can optimize decisions')
         st.subheader('Diabetis Information')
         st.write('In Cameroon, the prevalence of diabetes in adults in urban areas is currently estimated at 6 – 8%, with as much as 80% of people living with diabetes who are currently undiagnosed in the population. Further, according to data from Cameroon in 2002, only about a quarter of people with known diabetes actually had adequate control of their blood glucose levels. The burden of diabetes in Cameroon is not only high but is also rising rapidly. Data in Cameroonian adults based on three cross-sectional surveys over a 10-year period (1994–2004) showed an almost 10-fold increase in diabetes prevalence.')

@@ -4,3 +4,4 @@ streamlit
 matplotlib
 seaborn
 pandas
+streamlit_option_menu
